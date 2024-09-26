@@ -3,6 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+font-weight: 500;
+    margin-bottom: 0;
+
+   
+}
+
+/* Apply Roboto Light 300 for content */
+p, span, div {
+   font-family: 'Roboto', sans-serif;
+font-weight: 400;
+
+    margin: 0;
+    
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -44,7 +60,7 @@ nav a {
 
 .course-info {
     display: grid;
-  grid-template-columns: 1fr fr 1fr;
+  grid-template-columns: 0.5fr  2fr;
     justify-content: space-between;
     margin-top: 10px;
     margin-right: 10px;
@@ -53,8 +69,12 @@ nav a {
 .bestseller {
     background-color: #ffa41c;
     color: #fff;
-    padding: 5px 10px;
+    padding: 2px 5px;
     border-radius: 5px;
+    font-size: 0.8em;
+ display: flex;
+ justify-content: center;
+    width: 50%;
 }
 
 .rating i{
