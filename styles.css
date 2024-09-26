@@ -61,20 +61,22 @@ nav a {
 .course-info {
     display: grid;
   grid-template-columns: 0.5fr  2fr;
-    justify-content: space-between;
+   
     margin-top: 10px;
     margin-right: 10px;
 }
 
 .bestseller {
-    background-color: #ffa41c;
+    background-color:#f58a08;
     color: #fff;
-    padding: 2px 5px;
+    padding: 3px 5px;
+    width: 85%;
+    
     border-radius: 5px;
     font-size: 0.8em;
  display: flex;
  justify-content: center;
-    width: 50%;
+    
 }
 
 .rating i{
