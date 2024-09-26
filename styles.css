@@ -43,8 +43,8 @@ nav a {
 }
 
 .course-info {
-    display: flex;
-    align-items: center;
+    display: grid;
+  grid-template-columns: 1fr fr 1fr;
     justify-content: space-between;
     margin-top: 10px;
     margin-right: 10px;
