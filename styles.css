@@ -6,108 +6,132 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-.breadcrumb {
-    color: #6c757d;
-    font-size: 14px;
-    margin-bottom: 15px;
+.container {
+    max-width: 1200px;
+    
+    padding: 11em;
+}
+
+.Header_Productpage {
+  
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+ 
+}
+
+nav a {
+    color: #999;
+    text-decoration: none;
+}
+
+.heading_productpage {
+    margin-top: 20px;
+   
+   margin-bottom: 10px;
+}
+.paragraph_productpage{
+    color: #999;
+    margin-top: 20px;
+   
+    margin-bottom: 20px;
+  
 }
 
 .course-info {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.course-info h1 {
-    font-size: 28px;
-    color: #343a40;
-    margin-bottom: 10px;
-}
-
-.course-info p {
-    font-size: 16px;
-    color: #6c757d;
-    margin-bottom: 15px;
-}
-
-.course-meta {
     display: flex;
     align-items: center;
-    gap: 20px;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.bestseller {
+    background-color: #ffa41c;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.rating i{
+    color: #ffa41c ;
+  
+}
+.course-image {
+    position: relative;
+    text-align: center;
     margin-bottom: 20px;
 }
 
-.bestseller-badge {
-    background-color: #ff9800;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 14px;
-    font-weight: bold;
+.course-image img {
+    width: 100%;
+    border-radius: 10px;
 }
 
-.rating {
-    font-size: 14px;
-    color: #6c757d;
-}
-
-.rating span:nth-child(1) {
-    font-size: 18px;
-    color: #343a40;
-    font-weight: bold;
-}
-
-.rating span:nth-child(2) {
-    color: #ff9800;
-    font-weight: bold;
-}
-
-.creator {
-    color: #6c757d;
-    font-size: 14px;
-}
-
-.author-name {
-    color: #e74c3c;
-    margin-left: 5px;
-}
-
-.course-update {
-    color: #6c757d;
-    font-size: 14px;
-}
-
-.course-actions {
-    display: flex;
-    gap: 10px;
-}
-
-.course-actions button {
-    padding: 8px 15px;
-    font-size: 14px;
-    border: 1px solid #ced4da;
-    border-radius: 5px;
-    background-color: white;
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
     cursor: pointer;
 }
 
-.course-actions button.wishlist {
-    color: #6c757d;
+.course-details {
+    
+    padding: 20px;
+    border-radius: 10px;
+ 
+    margin-left: 20px;
 }
 
-.course-actions button.share {
-    color: #6c757d;
+.price {
+    font-size: 1.5rem;
+    color: #e74c3c;
+    margin-bottom: 10px;
 }
 
-.course-actions button.report-abuse {
-    color: #6c757d;
+.add-to-cart, .buy-now {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    color: #fff;
+    background-color: #e74c3c;
+    cursor: pointer;
 }
 
-.course-actions button:hover {
-    background-color: #f8f9fa;
+.add-to-wishlist {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #fffae6;
+    cursor: pointer;
+}
+
+.course-includes {
+    margin: 20px 0;
+}
+
+.course-includes li {
+    margin-bottom: 10px;
+}
+
+.share a {
+    margin-right: 10px;
+}
+
+.course-details-section {
+    margin-top: 40px;
+   
+    padding: 20px;
+    border-radius: 10px;
+    
 }
