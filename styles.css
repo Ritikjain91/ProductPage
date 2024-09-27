@@ -65,6 +65,13 @@ nav a {
     margin-top: 10px;
     margin-right: 10px;
 }
+.language{
+    font-size: 0.8rem;
+}
+.creators{
+
+    font-size: 0.8rem;
+}
 
 .bestseller {
     background-color:#f58a08;
