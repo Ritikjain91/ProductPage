@@ -70,7 +70,7 @@ nav a {
     background-color:#f58a08;
     color: #fff;
     padding: 3px 5px;
-    width: 85%;
+    width: 65%;
     
     border-radius: 5px;
     font-size: 0.8em;
@@ -78,9 +78,17 @@ nav a {
  justify-content: center;
     
 }
-
+.last-updated{
+    font-size: 0.8rem;
+}
 .rating i{
     color: #ffa41c ;
+ 
+  
+}
+.rating{
+    font-size: 0.8em;
+    color: black;
   
 }
 .course-image {
