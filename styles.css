@@ -140,3 +140,171 @@ nav a {
     border-radius: 10px;
 }
 
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+.course-header {
+    position: relative;
+}
+
+.course-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.play-button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.play-button-icon {
+    width: 50px;
+    height: 50px;
+}
+
+/* Navigation Menu */
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    color: #ff7a00;
+}
+
+/* What You Will Learn Section */
+.course-details {
+    
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    
+}
+
+.course-details h2 {
+    margin-bottom: 20px;
+    color: #ff7a00;
+}
+
+.details-list ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+.details-list ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* Who This Course is For Section */
+.course-audience {
+  
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+   
+}
+
+.course-audience h2 {
+    margin-bottom: 20px;
+    color: #ff7a00;
+}
+
+.course-audience ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+.course-audience ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* Course Includes Section */
+.course-features {
+    
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+   
+}
+
+.course-features h2 {
+    margin-bottom: 20px;
+    color: #ff7a00;
+}
+
+
+/* Course Includes Grid Layout */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.feature-item {
+    text-align: center;
+}
+
+.feature-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+
+
+
+.course-columns {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.column {
+    flex: 1; /* equal width for both columns */
+}
+
+.overview-card {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px; 
+  
+}
+
+.list {
+    list-style: none; /* Removes default bullet points */
+    padding-left: 0;
+}
+
+.list li {
+    margin-bottom: 10px;
+    color: #999;
+
+}
+
+.icon-check {
+    margin-right: 5px;
+}
