@@ -63,6 +63,18 @@ nav a {
     margin-bottom: 15px;
  
 }
+.LanguageLastupdated{
+    margin-bottom: 10px;
+}
+.last-updated{
+  margin-right: 10px;
+  
+   
+
+}
+.CreatedBy{
+    color: grey;
+}
 
 
 .course-info {
@@ -128,66 +140,3 @@ nav a {
     border-radius: 10px;
 }
 
-.play-btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-   
-    border: none;
-    padding: 15px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.course-details {
-    
-    padding: 20px;
-    border-radius: 10px;
- 
-    margin-left: 20px;
-}
-
-.price {
-    font-size: 1.5rem;
-    color: #e74c3c;
-    margin-bottom: 10px;
-}
-
-.add-to-cart, .buy-now {
-    width: 50%;
-    padding: 10px;
-    margin: 10px 0;
-    border: none;
-    color: #fff;
-    background-color: #e74c3c;
-    cursor: pointer;
-}
-
-.add-to-wishlist {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    background-color: #fffae6;
-    cursor: pointer;
-}
-
-.course-includes {
-    margin: 20px 0;
-}
-
-.course-includes li {
-    margin-bottom: 10px;
-}
-
-.share a {
-    margin-right: 10px;
-}
-
-.course-details-section {
-    margin-top: 40px;
-   
-    padding: 20px;
-    border-radius: 10px;
-    
-}
