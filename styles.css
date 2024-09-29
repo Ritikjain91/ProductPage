@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
   
 }
 h1, h2, h3, h4, h5, h6 {
@@ -252,6 +253,9 @@ nav a {
     margin-bottom: 20px;
     color: #ff7a00;
 }
+.title{
+    margin-bottom: 20px;
+}
 
 
 /* Course Includes Grid Layout */
@@ -275,13 +279,19 @@ nav a {
     font-size: 1.1em;
     color: #555;
 }
-
+.column1{
+    flex: 1;
+    margin-top: 20px;
+}
 
 
 
 .course-columns {
     display: flex;
-    background-color: #f7f7ff !important;
+    background-color: #e5e4e4;
+    padding: 41px;
+
+
 
     
    
@@ -291,11 +301,6 @@ nav a {
     flex: 1; /* equal width for both columns */
 }
 
-.overview-card {
-
-    padding: 20px; 
-  
-}
 
 .list {
     list-style: none; /* Removes default bullet points */
@@ -303,7 +308,7 @@ nav a {
 }
 
 .list li {
-    margin-bottom: 10px;
+    margin-bottom: 37px;
     color: #999;
 
 }
