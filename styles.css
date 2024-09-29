@@ -248,6 +248,13 @@ nav a {
     border-radius: 8px;
    
 }
+.fa-check:before {
+    content: "\f00c";
+    background: orange;
+    border-radius: 50px;
+    color: white;
+    padding: 2px;
+}
 
 .course-features h2 {
     margin-bottom: 20px;
@@ -281,7 +288,7 @@ nav a {
 }
 .column1{
     flex: 1;
-    margin-top: 20px;
+    margin-top: 3em
 }
 
 
@@ -290,6 +297,7 @@ nav a {
     display: flex;
     background-color: #e5e4e4;
     padding: 41px;
+    gap: 30px;
 
 
 
@@ -309,7 +317,7 @@ nav a {
 
 .list li {
     margin-bottom: 37px;
-    color: #999;
+    color: #5f5555;
 
 }
 
