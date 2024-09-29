@@ -328,9 +328,16 @@ nav a {
 .overview-list{
     display: grid;
     grid-template-columns:0.1fr 1fr;
-    list-style-type: none; /* Remove bullet points */
-    padding-left: 0; /* Remove padding */
+    list-style-type: none; 
+    padding-left: 0; 
+    font-size: 0.8em;
 
+
+}
+.TopCompanies{
+    border: 1px solid #abaaaa;
+    border-radius:0px 0px 0px 0px;
+   
 }
 
 .course-details, .course-includes {
