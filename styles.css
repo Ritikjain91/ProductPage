@@ -31,15 +31,16 @@ body {
 .container {
     max-width: 1200px;
     
-    padding: 11em;
+    padding: 10em;
 }
 
 .Header_Productpage {
   
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
+padding: 3em 10em  ;
+    border-radius: 0px;
+  margin-top: 6em;
  
+    background-color: rgb(184, 174, 174);
 }
 
 nav a {
@@ -51,6 +52,7 @@ nav a {
     margin-top: 20px;
    
    margin-bottom: 10px;
+   font-weight: bold
 }
 .paragraph_productpage{
     color: #999;
@@ -58,6 +60,9 @@ nav a {
    
     margin-bottom: 20px;
   
+}
+.overview-list li{
+    margin-bottom: 2em;
 }
 
 .course-info1{
@@ -339,7 +344,18 @@ nav a {
     border-radius:0px 0px 0px 0px;
    
 }
+.Description_heading{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.Description_paragraph{
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 1em;
 
+}
 .course-details, .course-includes {
     margin-bottom: 40px;
 }
@@ -391,3 +407,173 @@ nav a {
 }
 
 
+.curriculum {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.curriculum-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Hide the input (checkbox) */
+.dropdown-toggle {
+    display: none;
+}
+
+/* Style for the section headers */
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.section-header:hover {
+    background-color: #f1f1f1;
+}
+
+.section-info {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.arrow {
+    margin-left: 10px;
+    font-size: 14px;
+    transition: transform 0.3s ease;
+}
+
+/* Lecture list hidden by default */
+.lecture-list {
+    max-height: 0;
+    overflow: hidden;
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+}
+
+/* Toggle for dropdown */
+.dropdown-toggle:checked + .section-header .arrow {
+    transform: rotate(-180deg); /* Rotate arrow */
+}
+
+/* When the checkbox is checked, show the lecture list */
+.dropdown-toggle:checked + .section-header + .lecture-list {
+    max-height: 500px; /* Adjust as necessary */
+    opacity: 1;
+}
+
+.lecture-list li {
+    padding: 5px 0;
+    font-size: 16px;
+    color: #343a40;
+}
+.course-container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.section-heading {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.instructor-card {
+   
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.instructor-info {
+    display: flex;
+}
+
+.instructor-photo {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.instructor-details h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.instructor-details p {
+    margin-bottom: 10px;
+}
+
+.stats {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.rating-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rating-score {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rating-score h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.rating-bars {
+    width: 60%;
+}
+
+.rating-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rating-row span {
+    width: 150px;
+}
+
+.bar {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.fill {
+    background-color: #f39c12;
+    height: 100%;
+    border-radius: 8px;
+}
