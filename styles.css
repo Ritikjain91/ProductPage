@@ -43,7 +43,7 @@ padding: 3em 10em  ;
   background-color: rgb(215 209 209);
 }
 
-.Navbar_productpage a {
+.navbar_productpage a {
     color: #747272;
     text-decoration: none;
 }
@@ -491,7 +491,7 @@ padding: 3em 10em  ;
 }
 .course-container {
     width: 80%;
-    margin: 50px auto;
+   
 }
 
 .section-heading {
@@ -609,9 +609,9 @@ padding: 3em 10em  ;
 
 .feedback-card {
     background-color: #fff;
-    border: 1px solid #ddd;
+       border-bottom: 1px solid #ddd;
     border-radius: 8px;
-    padding: 20px;
+   
     margin: 15px 0;
     
 }
@@ -648,7 +648,7 @@ padding: 3em 10em  ;
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
-    background-color: #ff7a59;
+    background-color: #dba595;
     color: white;
     border: none;
     border-radius: 4px;
