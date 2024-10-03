@@ -31,7 +31,7 @@ body {
 .container {
     max-width: 1200px;
     
-    padding: 10em;
+        padding: 2em 10em;
 }
 
 .Header_Productpage {
@@ -40,11 +40,11 @@ padding: 3em 10em  ;
     border-radius: 0px;
   margin-top: 6em;
  
-    background-color: rgb(184, 174, 174);
+  background-color: rgb(215 209 209);
 }
 
-nav a {
-    color: #999;
+.Navbar_productpage a {
+    color: #747272;
     text-decoration: none;
 }
 
@@ -179,7 +179,7 @@ nav a {
     height: 50px;
 }
 
-/* Navigation Menu */
+
 .nav-menu {
     display: flex;
     justify-content: center;
@@ -197,7 +197,7 @@ nav a {
     color: #ff7a00;
 }
 
-/* What You Will Learn Section */
+
 .course-details {
     
     padding: 20px;
@@ -596,7 +596,7 @@ nav a {
     border-radius: 8px;
     padding: 20px;
     margin: 15px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
 }
 
 .feedback-header {
