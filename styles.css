@@ -510,6 +510,7 @@ padding: 3em 10em  ;
     padding: 20px;
     margin: 15px 0;
     width: 130%
+   
 }
 .navbar_container_list li:hover {
     border-bottom: 1px solid yellow;
@@ -563,10 +564,16 @@ padding: 3em 10em  ;
 
 .rating-score {
     text-align: center;
-    background-color: white;
-    padding: 30px;
+    
+
+    
+    background-color: #fff;
+    border: 1px solid #ddd;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px 0;
+ 
+
 }
 
 .rating-score h1 {
