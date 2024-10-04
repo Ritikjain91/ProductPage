@@ -562,7 +562,8 @@ padding: 3em 10em  ;
     justify-content: space-between;
 }
 
-.rating-score {
+.rating_score
+ {
     text-align: center;
     
 
@@ -576,7 +577,7 @@ padding: 3em 10em  ;
 
 }
 
-.rating-score h1 {
+.rating_score h1 {
     font-size: 3em;
     margin-bottom: 10px;
 }
@@ -584,7 +585,9 @@ padding: 3em 10em  ;
 .rating-bars {
     width: 60%;
 }
-
+.four_egiht_decimalstar{
+    
+}
 .rating-row {
     display: flex;
     align-items: center;
