@@ -509,10 +509,16 @@ padding: 3em 10em  ;
     padding: 20px;
     margin: 15px 0;
 }
+.navbar_container_list li:hover {
+    border-bottom: 1px solid yellow;
+}
+
 .navbar_container_list{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    margin-top: 1em;
+    margin-bottom: 1em;
     
 }
 .navbar_container_list li a{
