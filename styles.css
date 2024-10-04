@@ -63,6 +63,7 @@ padding: 3em 10em  ;
 }
 .overview-list li{
     margin-bottom: 2em;
+    font-size: 12px;
 }
 
 .course-info1{
@@ -621,9 +622,10 @@ padding: 3em 10em  ;
 .section-title {
     text-align: center;
     color: #333;
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 20px;
 }
+
 
 .feedback-card {
     background-color: #fff;
