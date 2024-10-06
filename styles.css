@@ -573,7 +573,9 @@ padding: 3em 10em  ;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
     margin: 15px 0;
  
 
@@ -585,7 +587,7 @@ padding: 3em 10em  ;
 }
 
 .rating-bars {
-    width: 60%;
+    width: 100%;
 }
 .four_egiht_decimalstar{
     
