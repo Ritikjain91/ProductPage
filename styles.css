@@ -13,7 +13,7 @@ font-weight: 500;
    
 }
 
-/* Apply Roboto Light 300 for content */
+
 p, span, div {
    font-family: 'Roboto', sans-serif;
 font-weight: 400;
@@ -391,7 +391,7 @@ padding: 3em 10em  ;
 
 .course-includes-list {
     display: flex;
-    flex-wrap: wrap;
+   flex: 1;
 }
 
 .course-includes-item {
@@ -559,8 +559,8 @@ padding: 3em 10em  ;
 }
 
 .rating-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    
 }
 
 .rating_score
