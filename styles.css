@@ -622,9 +622,9 @@ padding: 3em 10em  ;
 }
 
 .section-title {
-    text-align: center;
+    text-align: left;
     color: #333;
-    font-size: 14px;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
