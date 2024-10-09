@@ -13,7 +13,7 @@ font-weight: 500;
    
 }
 
-
+/* Apply Roboto Light 300 for content */
 p, span, div {
    font-family: 'Roboto', sans-serif;
 font-weight: 400;
@@ -391,7 +391,7 @@ padding: 3em 10em  ;
 
 .course-includes-list {
     display: flex;
-   flex: 1;
+    flex-wrap: wrap;
 }
 
 .course-includes-item {
