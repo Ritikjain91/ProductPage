@@ -595,17 +595,19 @@ padding: 3em 10em  ;
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    width: 140%
 }
 
 .rating-row span {
     width: 150px;
+    white-space: nowrap;
 }
 
 .bar {
     background-color: #e0e0e0;
     border-radius: 8px;
     overflow: hidden;
-    width: 100%;
+    width: 140%;
     height: 10px;
     margin-right: 10px;
 }
