@@ -380,7 +380,7 @@ padding: 3em 10em  ;
     font-size: 16px;
 }
 .container .woman_man{
-    width:64.5vw;
+    width:100%;
      height:80vh;
 }
 
@@ -696,6 +696,8 @@ padding: 3em 10em  ;
 .related-courses h2 {
     text-align: center;
     color: #333;
+    position: relative;
+    right: 5em;
 }
 
 .course-card {
@@ -707,7 +709,7 @@ padding: 3em 10em  ;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
 }
 
 .course-card img {
@@ -745,11 +747,8 @@ padding: 3em 10em  ;
         margin-bottom: 1em; /* Add some space between stacked columns */
     }
 
-    /* Navbar adjustments */
-    .navbar_container_list {
-        flex-direction: column; /* Stack menu items */
-        align-items: flex-start; /* Align items to the left */
-    }
+    
+
 
     .navbar_container_list li {
         margin-bottom: 10px; /* Add spacing between items */
@@ -803,18 +802,15 @@ padding: 3em 10em  ;
     }
 
     .rating-section, .rating_score {
-        padding: 20px; /* Adjust padding for rating sections */
+        padding: 20px; 
     }
 
-    /* Feedback card adjustments */
+   
     .feedback-card {
         padding: 10px;
     }
 
-    /* Instructor card adjustments */
-    .instructor-card {
-        width: 100%; /* Full width for mobile */
-    }
+    
 
     /* Related courses adjustments */
     .related-courses {
