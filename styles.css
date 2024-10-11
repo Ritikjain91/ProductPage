@@ -423,7 +423,7 @@ padding: 3em 10em  ;
 }
 
 .curriculum-title {
-    font-size: 3em;
+    font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -726,4 +726,108 @@ padding: 3em 10em  ;
     color: #ff7a59;
     font-size: 18px;
     font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+    /* Adjusting padding for smaller screens */
+    .container, .header_productpage, .course-columns, .page-container {
+        padding: 1em;
+    }
+
+    /* Stacking columns vertically */
+    .course-columns {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /* Making each column full width */
+    .column {
+        width: 100%;
+        margin-bottom: 1em; /* Add some space between stacked columns */
+    }
+
+    /* Navbar adjustments */
+    .navbar_container_list {
+        flex-direction: column; /* Stack menu items */
+        align-items: flex-start; /* Align items to the left */
+    }
+
+    .navbar_container_list li {
+        margin-bottom: 10px; /* Add spacing between items */
+    }
+
+    /* Responsive font sizes for headings and content */
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1.3em; /* Adjust headings */
+    }
+
+    p, span, div {
+        font-size: 0.9em; /* Adjust text size */
+    }
+
+    /* Adjusting image widths */
+    .course-image img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    /* Play button container adjustments */
+    .play-button-container {
+        padding: 10px;
+    }
+
+    .play-button-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Navbar for course page */
+    .nav-menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Features grid adjustment */
+    .features-grid {
+        grid-template-columns: 1fr; /* Single column for mobile */
+    }
+
+    /* Adjust rating section for mobile */
+    .rating-row {
+        width: 100%; /* Full width for ratings */
+    }
+
+    /* Adjust list items for mobile view */
+    .overview-list {
+        grid-template-columns: 0.2fr 1fr; /* Adjust list grid for smaller screens */
+    }
+
+    .rating-section, .rating_score {
+        padding: 20px; /* Adjust padding for rating sections */
+    }
+
+    /* Feedback card adjustments */
+    .feedback-card {
+        padding: 10px;
+    }
+
+    /* Instructor card adjustments */
+    .instructor-card {
+        width: 100%; /* Full width for mobile */
+    }
+
+    /* Related courses adjustments */
+    .related-courses {
+        padding: 10px;
+    }
+
+    .course-card {
+        width: 45%; /* Two course cards per row */
+        margin: 5px; /* Adjust margins */
+    }
+
+    /* Load more button adjustment */
+    .load-more-btn {
+        padding: 10px 20px;
+    }
 }
