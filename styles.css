@@ -341,18 +341,18 @@ padding: 3em 10em  ;
 
 
 }
-.TopCompanies{
+.top_companies{
     border: 1px solid #abaaaa;
     border-radius:0px 0px 0px 0px;
    
 }
-.Description_heading{
+.description_heading{
     font-weight: bold;
     font-size: 1.5em;
     margin-top: 1em;
     margin-bottom: 1em;
 }
-.Description_paragraph{
+.description_paragraph{
     font-size: 0.9em;
     color: #555;
     margin-bottom: 1em;
@@ -423,7 +423,7 @@ padding: 3em 10em  ;
 }
 
 .curriculum-title {
-    font-size: 14px;
+    font-size: 3em;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -572,8 +572,8 @@ padding: 3em 10em  ;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 34px;
+    
     
     margin: 15px 0;
  
@@ -587,6 +587,10 @@ padding: 3em 10em  ;
 
 .rating-bars {
     width: 100%;
+    width: 100%;
+    position: relative;
+    top: 2em;
+    left: 2em
 }
 .four_egiht_decimalstar{
     
@@ -607,9 +611,10 @@ padding: 3em 10em  ;
     background-color: #e0e0e0;
     border-radius: 8px;
     overflow: hidden;
-    width: 140%;
+    width: 100%;
     height: 10px;
     margin-right: 10px;
+    margin-left: 50px;
 }
 
 .fill {
@@ -685,7 +690,7 @@ padding: 3em 10em  ;
 
 .related-courses {
     padding: 20px;
-    background-color: #f1f1f1;
+   
 }
 
 .related-courses h2 {
