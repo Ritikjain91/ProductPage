@@ -730,7 +730,7 @@ padding: 3em 10em  ;
     font-weight: bold;
 }
 @media only screen and (max-width: 768px) {
-    /* Adjusting padding for smaller screens */
+    
     .container, .header_productpage, .course-columns, .page-container {
         padding: 1em;
     }
@@ -786,20 +786,17 @@ padding: 3em 10em  ;
         gap: 10px;
     }
 
-    /* Features grid adjustment */
+ 
     .features-grid {
-        grid-template-columns: 1fr; /* Single column for mobile */
+        grid-template-columns: 1fr; 
     }
 
-    /* Adjust rating section for mobile */
+    
     .rating-row {
-        width: 100%; /* Full width for ratings */
+        width: 100%; 
     }
 
-    /* Adjust list items for mobile view */
-    .overview-list {
-        grid-template-columns: 0.2fr 1fr; /* Adjust list grid for smaller screens */
-    }
+   
 
     .rating-section, .rating_score {
         padding: 20px; 
