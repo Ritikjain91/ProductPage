@@ -734,13 +734,14 @@ padding: 3em 10em  ;
     font-size: 18px;
     font-weight: bold;
 }
+
 .curriculum_container {
-    max-width: 800px;
+    width: 70vw;
     margin: 20px auto;
-  
-    background-color: #fff;
-    border-radius: 10px;
    
+   
+    border-radius: 10px;
+    
 }
 
 .curriculum_title {
@@ -751,18 +752,28 @@ padding: 3em 10em  ;
 }
 
 .curriculum_section {
-
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    /*  */
+   
+    transition: background-color 0.3s ease; 
+}
+
+.curriculum_section:hover {
+    background-color: #f1f1f1; /* Change background color slightly on hover */
 }
 
 .curriculum_summary {
-    font-size: 1.2em;
+    font-size: 0.8em;
     font-weight: bold;
-    color: #ff6600;
+    color: #a7988e;
     cursor: pointer;
+    padding: 5px;
+    transition: color 0.3s ease; /* Smoother color transition */
+}
+
+.curriculum_summary:hover {
+    color: #cc3300; /* Darker orange on hover */
 }
 
 .curriculum_summary::-webkit-details-marker {
@@ -773,11 +784,15 @@ padding: 3em 10em  ;
     content: ' ▾';
     font-size: 1em;
     float: right;
-    transition: transform 0.3s;
+    transition: transform 0.3s, color 0.3s ease; /* Smoother transform and color */
 }
 
 .curriculum_section[open] .curriculum_summary:after {
     transform: rotate(180deg);
+}
+
+.curriculum_section[open] .curriculum_summary {
+    color: #e75538; /* Change color when opened */
 }
 
 .lecture_list {
@@ -790,6 +805,11 @@ padding: 3em 10em  ;
     border-bottom: 1px solid #ddd;
     display: flex;
     justify-content: space-between;
+    transition: background-color 0.2s ease;
+}
+
+.lecture_item:hover {
+    background-color: #f0f0f0; /* Slight highlight on hover */
 }
 
 .lecture_duration, .lecture_size {
@@ -800,12 +820,27 @@ padding: 3em 10em  ;
 .lecture_info {
     font-size: 1.1em;
     margin-top: 10px;
+    color: #555;
 }
 
 .total_duration {
     font-size: 1.1em;
     margin-top: 10px;
     font-weight: bold;
+    color: #444;
+}
+
+/* Adjustments for mobile responsiveness */
+@media (max-width: 600px) {
+  
+    .lecture_item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .lecture_duration, .lecture_size {
+        margin-top: 5px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
