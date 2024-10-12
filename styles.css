@@ -497,7 +497,7 @@ padding: 3em 10em  ;
 }
 
 .section-heading {
-    font-size: 1.8em;
+    font-size: 1.1em;
     margin-bottom: 20px;
     color: #333;
     font-weight: bold;
@@ -677,11 +677,15 @@ padding: 3em 10em  ;
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
-    background-color: #dba595;
-    color: white;
+    background-color: #ffe0d7;
+  
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    position: relative;
+    right: 40%;
+    color: deeppink;
+    font-weight: bold;
 }
 
 .load-more-btn:hover {
@@ -697,7 +701,8 @@ padding: 3em 10em  ;
     text-align: center;
     color: #333;
     position: relative;
-    right: 5em;
+    right: 40%;
+    font-weight: bold;
 }
 
 .course-card {
@@ -729,6 +734,80 @@ padding: 3em 10em  ;
     font-size: 18px;
     font-weight: bold;
 }
+.curriculum_container {
+    max-width: 800px;
+    margin: 20px auto;
+  
+    background-color: #fff;
+    border-radius: 10px;
+   
+}
+
+.curriculum_title {
+    text-align: center;
+    color: #ff6600;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.curriculum_section {
+
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /*  */
+}
+
+.curriculum_summary {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ff6600;
+    cursor: pointer;
+}
+
+.curriculum_summary::-webkit-details-marker {
+    display: none; /* Hide default dropdown arrow */
+}
+
+.curriculum_summary:after {
+    content: ' ▾';
+    font-size: 1em;
+    float: right;
+    transition: transform 0.3s;
+}
+
+.curriculum_section[open] .curriculum_summary:after {
+    transform: rotate(180deg);
+}
+
+.lecture_list {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.lecture_item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lecture_duration, .lecture_size {
+    font-weight: bold;
+    color: #888;
+}
+
+.lecture_info {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.total_duration {
+    font-size: 1.1em;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 768px) {
     
     .container, .header_productpage, .course-columns, .page-container {
