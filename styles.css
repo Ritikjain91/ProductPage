@@ -572,16 +572,24 @@ padding: 3em 10em  ;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 34px;
+       padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    padding-right: 40px;
+    padding-left: 37px;
     
     
     margin: 15px 0;
  
 
 }
+.acadlix_curriculum_container{
+    border: 0px solid #ddd;
+}
 
 .rating_score h1 {
-    font-size: 3em;
+    font-weight: bold;
+    
     margin-bottom: 10px;
 }
 
@@ -592,8 +600,28 @@ padding: 3em 10em  ;
     top: 2em;
     left: 2em
 }
-.four_egiht_decimalstar{
+.four_eight_decimalstar{
+    display: flex;
+    color: orange;
     
+}
+.product_page_view_all{
+position: relative;
+left: 38rem;
+
+}
+.acadlix_product_page_view_all_btn{
+   
+    background-color: #ffe0d7;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    right: 40%;
+    color: deeppink;
+    font-weight: bold;
+    margin: 20px auto;
+    padding: 10px 20px;
 }
 .rating-row {
     display: flex;
@@ -639,7 +667,7 @@ padding: 3em 10em  ;
 .feedback-card {
     background-color: #fff;
        border-bottom: 1px solid #ddd;
-    border-radius: 8px;
+   
    
     margin: 15px 0;
     
@@ -671,6 +699,7 @@ padding: 3em 10em  ;
 .feedback-card p {
     font-size: 14px;
     color: #555;
+    margin-left: 5%;
 }
 
 .load-more-btn {
@@ -693,7 +722,9 @@ padding: 3em 10em  ;
 }
 
 .related-courses {
-    padding: 20px;
+    padding-right: 49px;
+    padding-left: 48px
+
    
 }
 
@@ -701,19 +732,20 @@ padding: 3em 10em  ;
     text-align: center;
     color: #333;
     position: relative;
-    right: 40%;
+    right: 30%;
     font-weight: bold;
 }
 
 .course-card {
     display: inline-block;
-    width: 22%;
+    width: 18%;
     margin: 10px;
     text-align: center;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 15px;
+   
+ 
     
 }
 
@@ -747,17 +779,18 @@ padding: 3em 10em  ;
 .curriculum_title {
     text-align: center;
     color: #ff6600;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-bottom: 20px;
     position: relative;
-    right: 13em;
+    right: 45%;
     color: black;
+    font-weight: bold;
 }
 
 .curriculum_section {
     padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border: 0.1px solid #ddd;
+  
     
    
     transition: background-color 0.3s ease; 
@@ -767,10 +800,14 @@ padding: 3em 10em  ;
 .curriculum_summary {
     font-size: 0.8em;
     font-weight: bold;
-    color: rgb(126 112 102);
+   
     cursor: pointer;
-    padding: 5px;
-    transition: color 0.3s ease; 
+ transition: color 0.3s ease;
+    padding: 10px;
+  
+    display: flex;
+    justify-content: space-between;
+   
     
 }
 
@@ -808,7 +845,7 @@ padding: 3em 10em  ;
 
 .lecture_item {
     padding: 10px;
-    border-bottom: 1px solid #ddd;
+   
     display: flex;
     justify-content: space-between;
     transition: background-color 0.2s ease;
