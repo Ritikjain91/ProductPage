@@ -617,7 +617,7 @@ left: 38rem;
     border-radius: 4px;
     cursor: pointer;
     
-    right: 40%;
+
     color: deeppink;
     font-weight: bold;
     margin: 20px auto;
@@ -721,22 +721,22 @@ left: 38rem;
     background-color: #ff5a39;
 }
 
-.related-courses {
+.acadlix_related_courses {
     padding-right: 49px;
     padding-left: 48px
 
    
 }
 
-.related-courses h2 {
-    text-align: center;
+.acadlix_related_courses h2 {
+    
     color: #333;
     position: relative;
-    right: 30%;
+   
     font-weight: bold;
 }
 
-.course-card {
+.course_card {
     display: inline-block;
     width: 18%;
     margin: 10px;
@@ -749,19 +749,19 @@ left: 38rem;
     
 }
 
-.course-card img {
+.course_card img {
     width: 100%;
     border-bottom: 1px solid #ddd;
     margin-bottom: 10px;
 }
 
-.course-card h3 {
+.course_card h3 {
     font-size: 16px;
     color: #333;
     margin-bottom: 10px;
 }
 
-.course-card p {
+.course_card p {
     color: #ff7a59;
     font-size: 18px;
     font-weight: bold;
@@ -769,7 +769,7 @@ left: 38rem;
 
 .curriculum_container {
     width: 70vw;
-    margin: 20px auto;
+   
    
    
     border-radius: 10px;
@@ -799,7 +799,7 @@ left: 38rem;
 
 .curriculum_summary {
     font-size: 0.8em;
-    font-weight: bold;
+    font-weight: b;
    
     cursor: pointer;
  transition: color 0.3s ease;
@@ -967,11 +967,11 @@ left: 38rem;
     
 
     /* Related courses adjustments */
-    .related-courses {
+    .acadlix_related_courses {
         padding: 10px;
     }
 
-    .course-card {
+    .course_card {
         width: 45%; /* Two course cards per row */
         margin: 5px; /* Adjust margins */
     }
