@@ -33,7 +33,9 @@ body {
     
         padding: 2em 10em;
 }
-
+.acadlix_products_details_container{
+    max-width: 700px;
+}
 .header_productpage {
   
 padding: 3em 10em  ;
@@ -305,7 +307,7 @@ padding: 3em 10em  ;
     background-color: #e5e4e4;
     padding: 41px;
     gap: 0px;
-    width: 65vw
+    
 
 
 
@@ -721,17 +723,133 @@ left: 38rem;
     background-color: #ff5a39;
 }
 
-.acadlix_related_courses {
-    padding-right: 49px;
-    padding-left: 48px
+.product_page_course_card{
+    display: flex;
+    width: 150%;
+}
+.wrapper_container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    position: absolute;
+    left: 57em;
+    top: 15rem
+}
 
-   
+/* Price Section */
+.pricing_info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.current_cost {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.original_cost {
+    text-decoration: line-through;
+    margin-left: 10px;
+    color: #7f8c8d;
+}
+
+.discount_tag {
+    color: #e67e22;
+    display: block;
+    margin-top: 5px;
+}
+
+.time_remaining {
+    color: #c0392b;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Course Details */
+.details_section {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Purchase Section */
+.purchase_options {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cart_btn, .buy_btn, .wishlist_btn, .gift_btn {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cart_btn {
+    background-color: #f39c12;
+    color: white;
+}
+
+.buy_btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.wishlist_btn, .gift_btn {
+    background-color: #ecf0f1;
+}
+
+.purchase_options p {
+    font-size: 12px;
+    color: #888;
+    margin-top: 10px;
+}
+
+/* Course Features */
+.features_list {
+    margin-top: 20px;
+}
+
+.features_list ul {
+    list-style-type: none;
+}
+
+.features_list li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Share Section */
+.social_share {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.share_btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.share_btn:hover {
+    background-color: #ddd;
 }
 
 .acadlix_related_courses h2 {
     
     color: #333;
-    position: relative;
+    
    
     font-weight: bold;
 }
@@ -768,7 +886,7 @@ left: 38rem;
 }
 
 .curriculum_container {
-    width: 70vw;
+   
    
    
    
