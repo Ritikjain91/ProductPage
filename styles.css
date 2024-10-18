@@ -38,7 +38,7 @@ body {
 }
 .header_productpage {
   
-padding: 3em 10em  ;
+padding: 3em 26em 5em 10em ;
     border-radius: 0px;
   margin-top: 6em;
  
@@ -66,6 +66,9 @@ padding: 3em 10em  ;
 .overview-list li{
     margin-bottom: 2em;
     font-size: 12px;
+}
+.acadlix_social_share_options{
+    display: flex;
 }
 
 .course-info1{
@@ -564,7 +567,12 @@ padding: 3em 10em  ;
     display: flex;
     
 }
-
+.acadlix_buy_now{
+    display: flex;
+}
+.acadlix_course_rating{
+    
+}
 .rating_score
  {
     text-align: center;
@@ -582,6 +590,7 @@ padding: 3em 10em  ;
     
     
     margin: 15px 0;
+    margin-top: 1em;
  
 
 }
@@ -609,7 +618,7 @@ padding: 3em 10em  ;
 }
 .product_page_view_all{
 position: relative;
-left: 38rem;
+left: 78%;
 
 }
 .acadlix_product_page_view_all_btn{
@@ -725,46 +734,50 @@ left: 38rem;
 
 .product_page_course_card{
     display: flex;
-    width: 150%;
+    width: 70vw;
 }
 .wrapper_container {
-    max-width: 400px;
+    max-width: 350px;
     margin: 20px auto;
     padding: 20px;
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 8px;
     position: absolute;
-    left: 57em;
-    top: 15rem
+    left: 70%;
+    top: 7rem
 }
 
 /* Price Section */
 .pricing_info {
-    text-align: center;
-    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.current_cost {
+.acadlix_current_cost {
     font-size: 24px;
-    font-weight: bold;
-    color: #e74c3c;
+    font-weight: normal;
+    
 }
 
-.original_cost {
+.acadlix_original_cost {
     text-decoration: line-through;
-    margin-left: 10px;
+    font-size:large;
+ 
     color: #7f8c8d;
 }
 
 .discount_tag {
-    color: #e67e22;
+    color: #ff7903;
     display: block;
+    font-weight: bold;
     margin-top: 5px;
+    margin-left: 5rem;
 }
 
+
 .time_remaining {
-    color: #c0392b;
+    color: #ff7903;
     font-size: 14px;
     margin-top: 10px;
 }
@@ -830,14 +843,14 @@ left: 38rem;
 
 /* Share Section */
 .social_share {
-    text-align: center;
+ 
     margin-top: 20px;
 }
 
 .share_btn {
     padding: 10px 20px;
     margin: 5px;
-    border: 1px solid #ccc;
+    border: none;
     background-color: #f0f0f0;
     cursor: pointer;
 }
@@ -1021,7 +1034,9 @@ left: 38rem;
         width: 100%;
         margin-bottom: 1em; /* Add some space between stacked columns */
     }
-
+    .wrapper_container{
+        display: none;
+    }
     
 
 
