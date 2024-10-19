@@ -714,7 +714,7 @@ left: 78%;
 .feedback-card p {
     font-size: 14px;
     color: #555;
-    margin-left: 5%;
+    margin-left: 8%;
 }
 
 .load-more-btn {
@@ -1063,7 +1063,11 @@ left: 78%;
         font-size: 0.9em; /* Adjust text size */
     }
 
-    /* Adjusting image widths */
+   
+   .product_page_course_card{
+    display: inline-block;
+    border: none;
+   }
     .course-image img {
         width: 100%;
         height: auto;
@@ -1116,7 +1120,9 @@ left: 78%;
 
     .course_card {
         width: 45%; /* Two course cards per row */
-        margin: 5px; /* Adjust margins */
+       
+        display: flex; 
+        border: none;
     }
 
     /* Load more button adjustment */
