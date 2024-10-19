@@ -643,6 +643,9 @@ left: 78%;
     margin-top: 1em;
     
 }
+.acadlix_product_page_related_course{
+    /* display: flex; */
+}
 
 .rating-row span {
     width: 150px;
@@ -691,7 +694,7 @@ left: 78%;
 .feedback-header {
     display: flex;
     align-items: center;
-    /* margin-bottom: 10px; */
+  
 }
 
 .feedback-header img {
@@ -737,8 +740,8 @@ left: 78%;
 }
 
 .product_page_course_card{
-    display: flex;
-    width: 70vw;
+    
+    width: 85vw;
 }
 .wrapper_container {
     max-width: 350px;
@@ -883,6 +886,7 @@ left: 78%;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
+    padding: 1%;
    
  
     
@@ -898,14 +902,15 @@ left: 78%;
     font-size: 16px;
     color: #333;
     margin-bottom: 10px;
+    
 }
 
 .course_card p {
     
-    font-size: 18px;
+    font-size: 12px;
     font-weight: bold;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .curriculum_container {
@@ -915,6 +920,10 @@ left: 78%;
    
     border-radius: 10px;
     
+}
+.acdlix_star_price{
+    display: flex;
+    justify-content: space-between;
 }
 
 .curriculum_title {
@@ -1047,6 +1056,11 @@ left: 78%;
     .wrapper_container{
         display: none;
     }
+    .acadlix_product_page_view_all_btn {
+        position: relative;
+        top: 43em;
+        right: 15em;
+    }
     
 
 
@@ -1089,7 +1103,14 @@ left: 78%;
         flex-direction: column;
         gap: 10px;
     }
-
+    .rating_score{
+        display: flex;
+        height: 50px;
+        
+    }
+    .rating-section {
+        display: inline;
+    }
  
     .features-grid {
         grid-template-columns: 1fr; 
@@ -1110,6 +1131,10 @@ left: 78%;
     .feedback-card {
         padding: 10px;
     }
+    .course_card h3{
+        position: relative;
+        
+    }
 
     
 
@@ -1121,8 +1146,10 @@ left: 78%;
     .course_card {
         width: 45%; /* Two course cards per row */
        
-        display: flex; 
+        display: inline; 
         border: none;
+        padding: 8px;
+
     }
 
     /* Load more button adjustment */
