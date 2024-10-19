@@ -571,6 +571,7 @@ padding: 3em 26em 5em 10em ;
     display: flex;
 }
 .acadlix_course_rating{
+    white-space: nowrap;
     
 }
 .rating_score
@@ -587,7 +588,7 @@ padding: 3em 26em 5em 10em ;
     font-weight: bold;
     padding-right: 40px;
     padding-left: 37px;
-    
+    height: 10rem;
     
     margin: 15px 0;
     margin-top: 1em;
@@ -608,7 +609,7 @@ padding: 3em 26em 5em 10em ;
    
     width: 100%;
     position: relative;
-    top: 2em;
+   
     left: 2em
 }
 .four_eight_decimalstar{
@@ -638,7 +639,9 @@ left: 78%;
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    width: 140%
+    width: 140%;
+    margin-top: 1em;
+    
 }
 
 .rating-row span {
@@ -654,6 +657,7 @@ left: 78%;
     height: 10px;
     margin-right: 10px;
     margin-left: 50px;
+    margin-top: 0.5em;
 }
 
 .fill {
@@ -687,7 +691,7 @@ left: 78%;
 .feedback-header {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .feedback-header img {
@@ -701,7 +705,7 @@ left: 78%;
     color: #333;
 }
 
-.feedback-info p {
+.feedback-info span {
     margin: 0;
     color: #999;
     font-size: 14px;
@@ -797,7 +801,7 @@ left: 78%;
     margin-top: 20px;
 }
 
-.cart_btn, .buy_btn, .wishlist_btn, .gift_btn {
+.cart_btn, .buy_btn, .acadlix_wishlist_btn, .gift_btn {
     width: 100%;
     margin: 10px 0;
     padding: 10px;
@@ -817,10 +821,12 @@ left: 78%;
     color: white;
 }
 
-.wishlist_btn, .gift_btn {
+.acadlix_wishlist_btn, .gift_btn {
     background-color: #ecf0f1;
 }
-
+.acadlix_wishlist_btn{
+    margin-right: 0.5em;
+}
 .purchase_options p {
     font-size: 12px;
     color: #888;
@@ -848,8 +854,9 @@ left: 78%;
 }
 
 .share_btn {
-    padding: 10px 20px;
+   width: 100%;
     margin: 5px;
+    height: 50%;
     border: none;
     background-color: #f0f0f0;
     cursor: pointer;
@@ -866,6 +873,7 @@ left: 78%;
    
     font-weight: bold;
 }
+
 
 .course_card {
     display: inline-block;
@@ -893,9 +901,11 @@ left: 78%;
 }
 
 .course_card p {
-    color: #ff7a59;
+    
     font-size: 18px;
     font-weight: bold;
+    display: flex;
+    justify-content: space-around;
 }
 
 .curriculum_container {
