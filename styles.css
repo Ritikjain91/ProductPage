@@ -310,11 +310,7 @@ padding: 3em 26em 5em 10em ;
     background-color: #e5e4e4;
     padding: 41px;
     gap: 0px;
-    
-
-
-
-    
+   
    
 }
 
@@ -343,6 +339,7 @@ padding: 3em 26em 5em 10em ;
     list-style-type: none; 
     padding-left: 0; 
     font-size: 0.8em;
+  
 
 
 }
@@ -912,6 +909,87 @@ left: 78%;
     display: flex;
     justify-content: space-between;
 }
+.course-offer-card {
+    
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    
+ 
+    
+}
+
+.pricing-info .current-price {
+    color: #ff4d00;
+    font-size: 2rem;
+}
+
+.pricing-info .previous-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.pricing-info .offer-discount {
+    color: #ff4d00;
+    font-weight: bold;
+}
+
+.limited-time {
+    color: #e74c3c;
+    font-size: 0.9rem;
+}
+
+.course-info-list {
+    list-style-type: none;
+    margin: 20px 0;
+    text-align: left;
+    padding-left: 0;
+}
+
+.course-info-list li {
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-info-list .info-label {
+    font-weight: bold;
+    color: #555;
+   
+}
+
+.action-buttons {
+    margin-top: 20px;
+    width: 50%;
+}
+
+.cart-btn, .purchase-btn {
+    padding: 10px;
+    width: 10em;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4em;
+}
+
+.cart-btn {
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+  
+    
+}
+
+.purchase-btn {
+    background-color: #ffe0d7;
+    color: red;
+    margin-left: 7em;
+}
+
+.cart-btn:hover, .purchase-btn:hover {
+    opacity: 0.9;
+}
+
 
 .curriculum_container {
    
@@ -1057,11 +1135,17 @@ left: 78%;
         display: none;
     }
     .acadlix_product_page_view_all_btn {
-        position: relative;
-        top: 43em;
+        position: absolute;
+        top: 33em;
         right: 15em;
+    white-space: nowrap;
     }
-    
+    .course-offer-card{
+        display: contents;
+    }
+    .overview-list{
+        margin-bottom: -6em;
+    }
 
 
     .navbar_container_list li {
@@ -1150,6 +1234,9 @@ left: 78%;
         border: none;
         padding: 8px;
 
+    }
+    .feedback-section{
+        padding: 0;
     }
 
     /* Load more button adjustment */
