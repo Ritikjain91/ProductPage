@@ -54,11 +54,18 @@ padding: 3em 26em 5em 10em ;
   background-color: rgb(215 209 209);
 }
 
-.navbar_productpage a {
+.acadlix_navbar_productpage a {
     color: #747272;
     text-decoration: none;
 }
-
+.acadlix_products_details_navbar_productpage a{
+    color: #747272;
+    text-decoration: none;
+    
+}
+.acadlix_products_details_navbar_productpage{
+    display: none;
+}
 .heading_productpage {
     margin-top: 20px;
    
@@ -392,7 +399,7 @@ padding: 3em 26em 5em 10em ;
 }
 .container .woman_man{
     width:100%;
-     height:80vh;
+    max-height:80vh;
 }
 
 .course-target-item i {
@@ -649,9 +656,6 @@ left: 78%;
     margin-top: 1em;
     
 }
-.acadlix_product_page_related_course{
-    /* display: flex; */
-}
 
 .rating-row span {
     width: 150px;
@@ -817,7 +821,7 @@ left: 78%;
     margin: 10px 0;
     padding: 10px;
     border: none;
-    border-radius: 5px;
+    
     font-size: 16px;
     cursor: pointer;
 }
@@ -833,7 +837,8 @@ left: 78%;
 }
 
 .acadlix_wishlist_btn, .gift_btn {
-    background-color: #ecf0f1;
+    background-color: transparent;
+    border: 1px solid rgb(230, 225, 225);
 }
 .acadlix_wishlist_btn{
     margin-right: 0.5em;
@@ -1038,7 +1043,7 @@ left: 78%;
 
 .curriculum_summary {
     font-size: 0.8em;
-    font-weight: b;
+    
    
     cursor: pointer;
  transition: color 0.3s ease;
@@ -1058,10 +1063,7 @@ left: 78%;
     display: none; 
 }
 
-.curriculum_duration{
-    
-    
-}
+
 .curriculum_summary:before {
     
     font-size: 1em;
@@ -1130,7 +1132,9 @@ left: 78%;
     .container, .header_productpage, .course-columns, .page-container {
         padding: 1em;
     }
-
+    .acadlix_products_details_navbar_productpage{
+        display: contents;
+    }
     /* Stacking columns vertically */
     .course-columns {
         flex-direction: column;
@@ -1206,6 +1210,11 @@ left: 78%;
         height: 50px;
         
     }
+    .header_productpage {
+        display: none;
+    }
+
+
     .rating-section {
         display: inline;
     }
