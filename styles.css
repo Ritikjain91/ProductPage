@@ -5,6 +5,15 @@
    
   
 }
+:root{
+    --primary-color:  #ffe0d7;
+    --secondary-color: #ff6d14;
+    --tertiary-color: #f34e12;
+
+}
+
+
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
 font-weight: 500;
@@ -13,7 +22,7 @@ font-weight: 500;
    
 }
 
-/* Apply Roboto Light 300 for content */
+
 p, span, div {
    font-family: 'Roboto', sans-serif;
 font-weight: 400;
@@ -771,13 +780,15 @@ left: 78%;
     color: #7f8c8d;
 }
 
-.discount_tag {
+.acadlix_discount_tag {
     color: #ff7903;
     display: block;
     font-weight: bold;
     margin-top: 5px;
     margin-left: 5rem;
+    background-color: var(--primary-color);
 }
+
 
 
 .time_remaining {
@@ -801,7 +812,7 @@ left: 78%;
     margin-top: 20px;
 }
 
-.cart_btn, .buy_btn, .acadlix_wishlist_btn, .gift_btn {
+.cart_btn, .acadlix_buy_btn, .acadlix_wishlist_btn, .gift_btn {
     width: 100%;
     margin: 10px 0;
     padding: 10px;
@@ -812,13 +823,13 @@ left: 78%;
 }
 
 .cart_btn {
-    background-color: #f39c12;
+    background-color: var(--tertiary-color);
     color: white;
 }
 
-.buy_btn {
-    background-color: #e74c3c;
-    color: white;
+.acadlix_buy_btn {
+    background-color: var(  --primary-color);
+    color:var(--secondary-color);
 }
 
 .acadlix_wishlist_btn, .gift_btn {
@@ -1137,8 +1148,14 @@ left: 78%;
     .acadlix_product_page_view_all_btn {
         position: absolute;
         top: 33em;
-        right: 15em;
+        right: 12em;
     white-space: nowrap;
+    }
+    .acdlix_star_price{
+        display: block;
+    }
+    .course_card p{
+        display: inline-block;
     }
     .course-offer-card{
         display: contents;
@@ -1157,10 +1174,7 @@ left: 78%;
         font-size: 1.3em; /* Adjust headings */
     }
 
-    p, span, div {
-        font-size: 0.9em; /* Adjust text size */
-    }
-
+    
    
    .product_page_course_card{
     display: inline-block;
