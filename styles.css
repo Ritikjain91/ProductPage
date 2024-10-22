@@ -68,6 +68,7 @@ padding: 3em 26em 5em 10em ;
 }
 .heading_productpage {
     margin-top: 20px;
+    display: none;
    
    margin-bottom: 10px;
    font-weight: bold
@@ -542,6 +543,7 @@ padding: 3em 26em 5em 10em ;
     justify-content: space-around;
     margin-top: 1em;
     margin-bottom: 1em;
+  
     
 }
 .navbar_container_list li a{
@@ -1128,7 +1130,9 @@ left: 78%;
 }
 
 @media only screen and (max-width: 768px) {
-    
+    .heading_productpage{
+        display: contents;
+    }
     .container, .header_productpage, .course-columns, .page-container {
         padding: 1em;
     }
@@ -1176,6 +1180,10 @@ left: 78%;
     /* Responsive font sizes for headings and content */
     h1, h2, h3, h4, h5, h6 {
         font-size: 1.3em; /* Adjust headings */
+    }
+    .navbar_container_list{
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
     }
 
     
