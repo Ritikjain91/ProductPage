@@ -9,6 +9,9 @@
     --primary-color:  #ffe0d7;
     --secondary-color: #ff6d14;
     --tertiary-color: #f34e12;
+    --text-color: #333333;
+    --border-color: #cccccc;
+    --accent-color: #f3a712;
 
 }
 
@@ -74,18 +77,23 @@ padding: 3em 26em 5em 10em ;
    font-weight: bold
 }
 .paragraph_productpage{
-    color: #747272;
+    color: #000000;
     margin-top: 20px;
    
     margin-bottom: 20px;
+    font-size: 1.55em;
+    font-weight: bold;
   
 }
 .overview-list li{
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     font-size: 12px;
 }
 .acadlix_social_share_options{
     display: flex;
+}
+.fa{
+    line-height: 1.5;
 }
 
 .course-info1{
@@ -105,7 +113,9 @@ padding: 3em 26em 5em 10em ;
 .CreatedBy{
     color: grey;
 }
-
+.cart-btn{
+    color:var(--tertiary-color);
+}
 
 .course-info {
    
@@ -317,7 +327,9 @@ padding: 3em 26em 5em 10em ;
 }
 .column1{
     flex: 1;
-    margin-top: 3em
+    margin-top: 4em;
+    margin-bottom: 4em;
+
 }
 
 
@@ -533,7 +545,7 @@ padding: 3em 26em 5em 10em ;
    
 }
 .navbar_container_list li:hover {
-    border-bottom: 1px solid yellow;
+    border-bottom: 1px solid var(--tertiary-color);
  padding-bottom: 0.5em;
 }
 
@@ -908,7 +920,7 @@ left: 78%;
 }
 
 .course_card img {
-    width: 100%;
+    width: 14vw;
     border-bottom: 1px solid #ddd;
     margin-bottom: 10px;
 }
@@ -975,13 +987,16 @@ left: 78%;
     color: #555;
    
 }
-
+.acadlix_products_details_option{
+    display: flex;
+    justify-content: space-between;
+}
 .action-buttons {
     margin-top: 20px;
     width: 50%;
 }
 
-.cart-btn, .purchase-btn {
+.cart-btn, .acadlix_purchase_btn {
     padding: 10px;
     width: 10em;
     margin-bottom: 10px;
@@ -998,13 +1013,13 @@ left: 78%;
     
 }
 
-.purchase-btn {
+.acadlix_purchase_btn {
     background-color: #ffe0d7;
     color: red;
     margin-left: 7em;
 }
 
-.cart-btn:hover, .purchase-btn:hover {
+.cart-btn:hover, .acadlix_purchase_btn:hover {
     opacity: 0.9;
 }
 
@@ -1023,12 +1038,12 @@ left: 78%;
 }
 
 .curriculum_title {
-    text-align: center;
-    color: #ff6600;
+ 
+  
     font-size: 1.5em;
     margin-bottom: 20px;
-    position: relative;
-    right: 45%;
+  
+   
     color: black;
     font-weight: bold;
 }
@@ -1150,6 +1165,9 @@ left: 78%;
         width: 100%;
         margin-bottom: 1em; /* Add some space between stacked columns */
     }
+    .navbar_container_list li{
+        margin-top: 0.5em;
+    }
     .wrapper_container{
         display: none;
     }
@@ -1177,10 +1195,7 @@ left: 78%;
         margin-bottom: 10px; /* Add spacing between items */
     }
 
-    /* Responsive font sizes for headings and content */
-    h1, h2, h3, h4, h5, h6 {
-        font-size: 1.3em; /* Adjust headings */
-    }
+
     .navbar_container_list{
         border-top: 1px solid grey;
         border-bottom: 1px solid grey;
@@ -1216,6 +1231,8 @@ left: 78%;
     .rating_score{
         display: flex;
         height: 50px;
+        position: relative;
+        margin-left: 2em;
         
     }
     .header_productpage {
@@ -1248,6 +1265,7 @@ left: 78%;
     }
     .course_card h3{
         position: relative;
+        bottom: 9em;
         
     }
 
