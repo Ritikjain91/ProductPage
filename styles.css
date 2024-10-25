@@ -976,6 +976,7 @@ left: 78%;
     padding-left: 0;
 }
 
+
 .course-info-list li {
     padding: 5px 0;
     display: flex;
@@ -1151,10 +1152,13 @@ left: 78%;
     .container, .header_productpage, .course-columns, .page-container {
         padding: 1em;
     }
+   
     .acadlix_products_details_navbar_productpage{
         display: contents;
     }
-    /* Stacking columns vertically */
+   .acadlix_design{
+    margin-bottom: 2em;
+   }
     .course-columns {
         flex-direction: column;
         width: 100%;
@@ -1179,9 +1183,12 @@ left: 78%;
     }
     .acdlix_star_price{
         display: block;
+        position: relative;
+        bottom: 16em;
     }
     .course_card p{
-        display: inline-block;
+        display:flex;
+        flex-direction: column;
     }
     .course-offer-card{
         display: contents;
@@ -1265,7 +1272,7 @@ left: 78%;
     }
     .course_card h3{
         position: relative;
-        bottom: 9em;
+        bottom: 6em;
         
     }
 
