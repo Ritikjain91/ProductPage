@@ -928,7 +928,8 @@ left: 78%;
 .course_card h3 {
     font-size: 16px;
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 24px;
+    margin-top: 24px;
     
 }
 
@@ -1184,7 +1185,7 @@ left: 78%;
     .acdlix_star_price{
         display: block;
         position: relative;
-        bottom: 16em;
+        bottom: 5em;
     }
     .course_card p{
         display:flex;
