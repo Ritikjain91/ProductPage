@@ -70,11 +70,11 @@ padding: 3em 26em 5em 10em ;
     display: none;
 }
 .heading_productpage {
-    margin-top: 20px;
+   
     display: none;
    
-   margin-bottom: 10px;
-   font-weight: bold
+   
+   font-weight: bold 
 }
 .paragraph_productpage{
     color: #000000;
@@ -101,7 +101,7 @@ padding: 3em 26em 5em 10em ;
     margin-bottom: 15px;
  
 }
-.LanguageLastupdated{
+.acadlix_languagelastupdated{
     margin-bottom: 10px;
 }
 .last-updated{
@@ -585,7 +585,7 @@ padding: 3em 26em 5em 10em ;
 }
 
 .stats {
-    margin-bottom: 10px;
+    margin-bottom: 10px; 
     font-size: 0.9em;
     color: #777;
 }
@@ -713,6 +713,9 @@ left: 78%;
    
     margin: 15px 0;
     
+}
+.acadlix_languagelastupdated_mobile_responsive{
+    display: none;
 }
 
 .feedback-header {
@@ -883,16 +886,20 @@ left: 78%;
     margin-top: 20px;
 }
 
-.share_btn {
+.acadlix_share_btn {
    width: 100%;
-    margin: 5px;
+    margin: 2px;
     height: 50%;
     border: none;
     background-color: #f0f0f0;
     cursor: pointer;
+    padding: 1em;
+    white-space: nowrap;
+    font-size: large;
+
 }
 
-.share_btn:hover {
+.acadlix_share_btn:hover {
     background-color: #ddd;
 }
 
@@ -1036,6 +1043,7 @@ left: 78%;
 }
 .acdlix_star_price{
     display: flex;
+
     justify-content: space-between;
 }
 
@@ -1060,8 +1068,8 @@ left: 78%;
 }
 
 
-.curriculum_summary {
-    font-size: 0.8em;
+.acadlix_curriculum_summary {
+    font-size: 1em;
     
    
     cursor: pointer;
@@ -1074,27 +1082,27 @@ left: 78%;
     
 }
 
-.curriculum_summary:hover {
+.acadlix_curriculum_summary:hover {
     color: #cc3300; 
 }
 
-.curriculum_summary::-webkit-details-marker {
+.acadlix_curriculum_summary::-webkit-details-marker {
     display: none; 
 }
 
 
-.curriculum_summary:before {
+.acadlix_curriculum_summary:before {
     
     font-size: 1em;
     float: right;
     transition: transform 0.3s, color 0.3s ease; /* Smoother transform and color */
 }
 
-.curriculum_section[open] .curriculum_summary:after {
+.curriculum_section[open] .acadlix_curriculum_summary:after {
     transform: rotate(180deg);
 }
 
-.curriculum_section[open] .curriculum_summary {
+.curriculum_section[open] .acadlix_curriculum_summary {
     color: #e75538; /* Change color when opened */
 }
 
@@ -1149,10 +1157,23 @@ left: 78%;
 @media only screen and (max-width: 768px) {
     .heading_productpage{
         display: contents;
+        font-size: 1.5em;
     }
     .container, .header_productpage, .course-columns, .page-container {
         padding: 1em;
     }
+    .acadlix_rating_score1{
+        display: flex;
+    }
+    .acadlix_languagelastupdated_mobile_responsive{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5em;
+        margin-bottom: 5em;
+       
+  
+      }
+    
    
     .acadlix_products_details_navbar_productpage{
         display: contents;
@@ -1165,10 +1186,10 @@ left: 78%;
         width: 100%;
     }
 
-    /* Making each column full width */
+    
     .column {
         width: 100%;
-        margin-bottom: 1em; /* Add some space between stacked columns */
+        margin-bottom: 1em; 
     }
     .navbar_container_list li{
         margin-top: 0.5em;
@@ -1178,18 +1199,20 @@ left: 78%;
     }
     .acadlix_product_page_view_all_btn {
         position: absolute;
-        top: 33em;
-        right: 12em;
+        top: 66em;
+        right: 17em;
     white-space: nowrap;
     }
     .acdlix_star_price{
         display: block;
         position: relative;
-        bottom: 5em;
+        bottom: 10em;
     }
     .course_card p{
         display:flex;
         flex-direction: column;
+        position: relative;
+        bottom: 3em;
     }
     .course-offer-card{
         display: contents;
@@ -1202,7 +1225,7 @@ left: 78%;
     .navbar_container_list li {
         margin-bottom: 10px; /* Add spacing between items */
     }
-
+   
 
     .navbar_container_list{
         border-top: 1px solid grey;
@@ -1214,6 +1237,8 @@ left: 78%;
    .product_page_course_card{
     display: inline-block;
     border: none;
+    position: relative;
+    top:4em;
    }
     .course-image img {
         width: 100%;
@@ -1240,7 +1265,9 @@ left: 78%;
         display: flex;
         height: 50px;
         position: relative;
-        margin-left: 2em;
+        margin-left: 1em;
+        width: 100%;
+        justify-content: space-around;
         
     }
     .header_productpage {
@@ -1263,9 +1290,7 @@ left: 78%;
 
    
 
-    .rating-section, .rating_score {
-        padding: 20px; 
-    }
+   
 
    
     .feedback-card {
@@ -1273,7 +1298,7 @@ left: 78%;
     }
     .course_card h3{
         position: relative;
-        bottom: 6em;
+        bottom: 9em;
         
     }
 
