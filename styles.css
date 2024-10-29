@@ -12,6 +12,7 @@
     --text-color: #333333;
     --border-color: #cccccc;
     --accent-color: #f3a712;
+    --acadlix-icon-star-color:orange;
 
 }
 
@@ -123,13 +124,10 @@ padding: 3em 26em 5em 10em ;
     margin-top: 10px;
     margin-right: 10px;
 }
-.language{
-    font-size: 0.8rem;
+.language .creators{
+    font-size: 1rem;
 }
-.creators{
 
-    font-size: 0.8rem;
-}
 
 .bestseller {
     background-color:#f58a08;
@@ -143,8 +141,8 @@ padding: 3em 26em 5em 10em ;
  justify-content: center;
     
 }
-.last-updated{
-    font-size: 0.8rem;
+.acadlix_language .acadlix_last_updated{
+    font-size: 1rem;
  
 }
 .star i{
@@ -288,7 +286,7 @@ padding: 3em 26em 5em 10em ;
 }
 .fa-check:before {
     content: "\f00c";
-    background: orange;
+    background: var(--acadlix-icon-star-color);
     border-radius: 50px;
     color: white;
     padding: 2px;
@@ -628,6 +626,9 @@ padding: 3em 26em 5em 10em ;
 
 .rating_score h1 {
     font-weight: bold;
+    position: relative;
+    bottom: 0.3em;
+    right: 0.5em;
     
     margin-bottom: 10px;
 }
@@ -808,6 +809,7 @@ left: 78%;
     margin-top: 5px;
     margin-left: 5rem;
     background-color: var(--primary-color);
+    padding: 5px;
 }
 
 
@@ -920,8 +922,7 @@ left: 78%;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 1%;
-   
+  
  
     
 }
@@ -1134,12 +1135,19 @@ left: 78%;
     color: #555;
 }
 
+.fa-star:before {
+    color: var(--acadlix-icon-star-color);
+}
+
 .total_duration {
     font-size: 1.1em;
     margin-top: 10px;
     font-weight: bold;
     color: #444;
 }
+ .fa-undo-alt{
+    color: orange;
+  }
 
 /* Adjustments for mobile responsiveness */
 @media (max-width: 600px) {
@@ -1173,6 +1181,7 @@ left: 78%;
        
   
       }
+     
     
    
     .acadlix_products_details_navbar_productpage{
@@ -1180,6 +1189,7 @@ left: 78%;
     }
    .acadlix_design{
     margin-bottom: 2em;
+ 
    }
     .course-columns {
         flex-direction: column;
@@ -1204,9 +1214,10 @@ left: 78%;
     white-space: nowrap;
     }
     .acdlix_star_price{
-        display: block;
+        display: flex;
         position: relative;
         bottom: 10em;
+        justify-content: space-evenly;
     }
     .course_card p{
         display:flex;
