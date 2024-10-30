@@ -13,6 +13,8 @@
     --border-color: #cccccc;
     --accent-color: #f3a712;
     --acadlix-icon-star-color:orange;
+    --acadlix-background-color:pink;
+   --acadlix-Button-padding: 5.5px;
 
 }
 
@@ -49,7 +51,7 @@ body {
 .acadlix_products_details_container{
     max-width: 700px;
 }
-.header_productpage {
+.acadlix_header_productpage {
   
 padding: 3em 26em 5em 10em ;
     border-radius: 0px;
@@ -107,6 +109,7 @@ padding: 3em 26em 5em 10em ;
 }
 .last-updated{
   margin-right: 10px;
+  line-height: 1.55;
   
    
 
@@ -224,20 +227,18 @@ padding: 3em 26em 5em 10em ;
     font-weight: bold;
 }
 
-.nav-menu a:hover {
-    color: #ff7a00;
-}
 
 
-.course-details {
+
+.acadlix_course_details {
     
-    padding: 20px;
+   
     margin: 20px 0;
     border-radius: 8px;
     
 }
 
-.course-details h2 {
+.acadlix_course_details h2 {
     margin-bottom: 20px;
     color: #ff7a00;
 }
@@ -542,12 +543,12 @@ padding: 3em 26em 5em 10em ;
     width: 130%
    
 }
-.navbar_container_list li:hover {
+.acadlix_navbar_container_list li:hover {
     border-bottom: 1px solid var(--tertiary-color);
  padding-bottom: 0.5em;
 }
 
-.navbar_container_list{
+.acadlix_navbar_container_list{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
@@ -556,7 +557,7 @@ padding: 3em 26em 5em 10em ;
   
     
 }
-.navbar_container_list li a{
+.acadlix_navbar_container_list li a{
     text-decoration: none;
     color: black;
 
@@ -809,8 +810,9 @@ left: 78%;
     margin-top: 5px;
     margin-left: 5rem;
     background-color: var(--primary-color);
-    padding: 5px;
+    padding: var(--acadlix-Button-padding);
 }
+
 
 
 
@@ -869,17 +871,21 @@ left: 78%;
 }
 
 /* Course Features */
-.features_list {
+.acadlix_features_list {
     margin-top: 20px;
 }
 
-.features_list ul {
+.acadlix_features_list ul {
     list-style-type: none;
 }
 
-.features_list li {
+.acadlix_features_list li {
     margin-bottom: 10px;
     font-size: 14px;
+}
+.acadlix_features_list h4{
+    font-weight: bold;
+    margin-bottom: 0.8em;
 }
 
 /* Share Section */
@@ -1026,7 +1032,7 @@ left: 78%;
 .acadlix_purchase_btn {
     background-color: #ffe0d7;
     color: red;
-    margin-left: 7em;
+    margin-left: 67%;
 }
 
 .cart-btn:hover, .acadlix_purchase_btn:hover {
@@ -1148,8 +1154,24 @@ left: 78%;
  .fa-undo-alt{
     color: orange;
   }
+  .acadlix_design{
+    margin-bottom: 2em;
+background-color: var(--acadlix-background-color) ;
+width: min-content;
+position: relative;
 
-/* Adjustments for mobile responsiveness */
+ 
+   }
+  @media screen and (min-width: 1400px) {
+    .wrapper_container{
+        left:75%;
+    }
+    .paragraph_productpage {
+        font-size: 2.5em;
+
+    }
+  }
+  
 @media (max-width: 600px) {
   
     .lecture_item {
@@ -1162,12 +1184,13 @@ left: 78%;
     }
 }
 
+
 @media only screen and (max-width: 768px) {
     .heading_productpage{
         display: contents;
         font-size: 1.5em;
     }
-    .container, .header_productpage, .course-columns, .page-container {
+    .container, .acadlix_header_productpage, .course-columns, .page-container {
         padding: 1em;
     }
     .acadlix_rating_score1{
@@ -1176,8 +1199,8 @@ left: 78%;
     .acadlix_languagelastupdated_mobile_responsive{
         display: flex;
         flex-direction: column;
-        margin-top: 5em;
-        margin-bottom: 5em;
+        margin-top: 3em;
+        margin-bottom: 3em;
        
   
       }
@@ -1187,10 +1210,7 @@ left: 78%;
     .acadlix_products_details_navbar_productpage{
         display: contents;
     }
-   .acadlix_design{
-    margin-bottom: 2em;
- 
-   }
+  
     .course-columns {
         flex-direction: column;
         width: 100%;
@@ -1201,7 +1221,7 @@ left: 78%;
         width: 100%;
         margin-bottom: 1em; 
     }
-    .navbar_container_list li{
+    .acadlix_navbar_container_list li{
         margin-top: 0.5em;
     }
     .wrapper_container{
@@ -1233,12 +1253,12 @@ left: 78%;
     }
 
 
-    .navbar_container_list li {
+    .acadlix_navbar_container_list li {
         margin-bottom: 10px; /* Add spacing between items */
     }
    
 
-    .navbar_container_list{
+    .acadlix_navbar_container_list{
         border-top: 1px solid grey;
         border-bottom: 1px solid grey;
     }
@@ -1281,7 +1301,7 @@ left: 78%;
         justify-content: space-around;
         
     }
-    .header_productpage {
+    .acadlix_header_productpage {
         display: none;
     }
 
