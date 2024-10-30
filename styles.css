@@ -371,10 +371,14 @@ padding: 3em 26em 5em 10em ;
 
 
 }
-.top_companies{
+.acadlix_top_companies{
     border: 1px solid #abaaaa;
     border-radius:0px 0px 0px 0px;
+    padding: 4px;
    
+}
+.acadlix_top_companies h3{
+    font-weight: bold;
 }
 .description_heading{
     font-weight: bold;
@@ -1125,7 +1129,9 @@ left: 78%;
     justify-content: space-between;
     transition: background-color 0.2s ease;
 }
-
+.acadlix_this_course{
+    display: none;
+}
 .lecture_item:hover {
     background-color: #f0f0f0; /* Slight highlight on hover */
 }
@@ -1204,6 +1210,9 @@ position: relative;
        
   
       }
+      .course-includes-list{
+        display: none;
+      }
      
     
    
@@ -1215,7 +1224,14 @@ position: relative;
         flex-direction: column;
         width: 100%;
     }
+.acadlix_this_course{
+    display: contents;
+   
+}
+.acadlix_this_course li{
+    list-style-type: none;
 
+}
     
     .column {
         width: 100%;
@@ -1294,13 +1310,16 @@ position: relative;
     }
     .rating_score{
         display: flex;
-        height: 50px;
+        height: 20px;
         position: relative;
         margin-left: 1em;
         width: 100%;
         justify-content: space-around;
+        padding-top: 0;
+        padding-bottom: 0;
         
     }
+
     .acadlix_header_productpage {
         display: none;
     }
