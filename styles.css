@@ -531,7 +531,7 @@ padding: 3em 26em 5em 10em ;
 }
 
 .section-heading {
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
     margin-bottom: 20px;
     color: #333;
     font-weight: bold;
@@ -1165,6 +1165,7 @@ left: 78%;
 background-color: var(--acadlix-background-color) ;
 width: min-content;
 position: relative;
+left: 40%;
 
  
    }
@@ -1230,6 +1231,7 @@ position: relative;
 }
 .acadlix_this_course li{
     list-style-type: none;
+    margin-top:1em ;
 
 }
     
