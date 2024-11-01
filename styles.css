@@ -72,7 +72,7 @@ padding: 3em 26em 5em 10em ;
 .acadlix_products_details_navbar_productpage{
     display: none;
 }
-.heading_productpage {
+.acadlix_heading_productpage {
    
     display: none;
    
@@ -99,7 +99,7 @@ padding: 3em 26em 5em 10em ;
     line-height: 1.5;
 }
 
-.course-info1{
+.acadlix_course_info1{
     display: flex;
     margin-bottom: 15px;
  
@@ -174,6 +174,9 @@ padding: 3em 26em 5em 10em ;
     position: relative;
     text-align: center;
     margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 
 .course-image img {
@@ -192,11 +195,6 @@ padding: 3em 26em 5em 10em ;
     position: relative;
 }
 
-.course-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
 
 .play-button-container {
     position: absolute;
@@ -938,7 +936,7 @@ left: 78%;
 }
 
 .course_card img {
-    width: 14vw;
+    width: -webkit-fill-available;
     border-bottom: 1px solid #ddd;
     margin-bottom: 10px;
 }
@@ -946,8 +944,8 @@ left: 78%;
 .course_card h3 {
     font-size: 16px;
     color: #333;
-    margin-bottom: 24px;
-    margin-top: 24px;
+    margin-bottom: 14px;
+    margin-top: 14px;
     
 }
 
@@ -958,7 +956,7 @@ left: 78%;
     display: flex;
     justify-content: space-between;
 }
-.course-offer-card {
+.acadlix_course_offer_card {
     
     padding: 20px;
     border-radius: 10px;
@@ -988,7 +986,7 @@ left: 78%;
     font-size: 0.9rem;
 }
 
-.course-info-list {
+.acadlix_course_info_list {
     list-style-type: none;
     margin: 20px 0;
     text-align: left;
@@ -996,13 +994,14 @@ left: 78%;
 }
 
 
-.course-info-list li {
+
+.acadlix_course_info_list li {
     padding: 5px 0;
     display: flex;
     justify-content: space-between;
 }
 
-.course-info-list .info-label {
+.acadlix_course_info_list .info-label {
     font-weight: bold;
     color: #555;
    
@@ -1077,7 +1076,9 @@ left: 78%;
    
     transition: background-color 0.3s ease; 
 }
-
+.acadlix_design_course_card{
+    padding: 4%;
+}
 
 .acadlix_curriculum_summary {
     font-size: 1em;
@@ -1100,7 +1101,9 @@ left: 78%;
 .acadlix_curriculum_summary::-webkit-details-marker {
     display: none; 
 }
-
+.acadlix_students{
+    color: #747272;
+}
 
 .acadlix_curriculum_summary:before {
     
@@ -1161,11 +1164,11 @@ left: 78%;
     color: orange;
   }
   .acadlix_design{
-    margin-bottom: 2em;
+    
 background-color: var(--acadlix-background-color) ;
 width: min-content;
-position: relative;
-left: 40%;
+padding: 2%;
+
 
  
    }
@@ -1193,7 +1196,7 @@ left: 40%;
 
 
 @media only screen and (max-width: 768px) {
-    .heading_productpage{
+    .acadlix_heading_productpage{
         display: contents;
         font-size: 1.5em;
     }
@@ -1202,6 +1205,16 @@ left: 40%;
     }
     .acadlix_rating_score1{
         display: flex;
+    }
+    .acadlix_design {
+        position: relative;
+        font-weight: bold;
+        left: 30%;
+        bottom: 2em;
+    }
+    .acadlix_design{
+        position: relative;
+        left: 57%;
     }
     .acadlix_languagelastupdated_mobile_responsive{
         display: flex;
@@ -1247,14 +1260,16 @@ left: 40%;
     }
     .acadlix_product_page_view_all_btn {
         position: absolute;
-        top: 66em;
-        right: 17em;
-    white-space: nowrap;
+        top: 134vh;
+        right: 20em;
+        white-space: nowrap;
+
     }
     .acdlix_star_price{
         display: flex;
         position: relative;
         bottom: 10em;
+        left: 20%;
         justify-content: space-evenly;
     }
     .course_card p{
@@ -1262,6 +1277,7 @@ left: 40%;
         flex-direction: column;
         position: relative;
         bottom: 3em;
+
     }
     .course-offer-card{
         display: contents;
@@ -1281,7 +1297,12 @@ left: 40%;
         border-bottom: 1px solid grey;
     }
 
-    
+    .course_card img{
+        width: 25%;
+        position: relative;
+        right: 13%;
+
+    }
    
    .product_page_course_card{
     display: inline-block;
@@ -1352,6 +1373,8 @@ left: 40%;
         position: relative;
         bottom: 9em;
         
+        font-weight: bolder;
+        left: 23%;
     }
 
     
